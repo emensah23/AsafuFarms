@@ -1,26 +1,29 @@
-body{
-    font-family: Arial,sans-serif;
-    background-color: antiquewhite;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin:0;
+    margin: 0;
 }
-.product-card{
+
+.product-card {
     display: flex;
-    background-color: aqua;
+    background-color: white;
     border-radius: 10px;
-    box-shadow: 0 4px  8px rgba(red, green, blue, alpha);
-    overflow: :hidden;
-    max: width 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 600px;
 }
-.product-image img{
- width: 100p;
- height: auto;
- border-top-left-radius:10px;
- border-bottom-left-radius: 10px;
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
+
 .product-details {
     padding: 20px;
 }
